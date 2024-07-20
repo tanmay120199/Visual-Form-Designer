@@ -1,43 +1,108 @@
-.html{
-    font-size: 20px;
+.html {
+  font-size: 20px;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
-#form-designer-container{
-    width: 100%;
-    height: 100%;
-    border: 1px solid black;
+#form-designer-container {
+  min-width: 100%;
+  height: 100%;
+  border: 1px solid black;
 }
 
-#form-designer-header{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 8%;
-    border-bottom: 1px solid black;
+#form-designer-header {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+  height: 8%;
+  border-bottom: 1px solid black;
+  background-color: #fafafa;
 }
 
-#form-designer-header h4{
-    margin-left: 1rem;
+#form-designer-header h4 {
+  margin-left: 1rem;
 }
 
-#form-designer-header button{
-    margin-right: 1.3rem;
-    width: 7rem;
-    height: 2rem;
-    margin-top: 1rem;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 5px;
+#form-designer-header button {
+  margin-right: 1.3rem;
+  width: 7rem;
+  height: 2rem;
+  margin-top: 1rem;
+  background-color: #f7f7f5;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
-#form-designer-header button:hover{
-    cursor: pointer;
+#form-designer-header button:hover {
+  cursor: pointer;
+}
+
+#form-designer-main {
+  display: flex;
+  min-width: 100%;
+  height: 92%;
+}
+
+#main-left {
+  width: 20%;
+  height: 100%;
+  border: 1px solid gray;
+}
+
+.main-left-heading {
+  width: 100%;
+  height: 8%;
+  box-sizing: border-box;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #fafafa;
+  /* border: 1px solid red; */
+}
+
+.main-left-components {
+  height: 92%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border: 1px solid gray;
+}
+
+.main-left-components button {
+  display: inline-block;
+  width: 100%;
+  height: 2.3rem;
+  margin-bottom: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid gray;
+}
+
+.main-left-components button:hover {
+  cursor: pointer;
+}
+
+#main-right {
+  width: 80%;
+  height: 100%;
+  box-sizing: border-box;
+  /* padding: 2rem 0rem 4rem 0rem; */
+  background-color: #e1e1e1;
+}
+
+#main-form-cont {
+  height: 92%;
+  width: 50rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem !important;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
