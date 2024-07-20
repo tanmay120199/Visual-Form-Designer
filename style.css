@@ -1,0 +1,43 @@
+.html{
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#form-designer-container{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+#form-designer-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 8%;
+    border-bottom: 1px solid black;
+}
+
+#form-designer-header h4{
+    margin-left: 1rem;
+}
+
+#form-designer-header button{
+    margin-right: 1.3rem;
+    width: 7rem;
+    height: 2rem;
+    margin-top: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#form-designer-header button:hover{
+    cursor: pointer;
+}
